@@ -8,6 +8,42 @@
 </head>
 
 <body>
+  <div class="popup-block">
+    <div class="popup-mask"></div>
+    <div class="popup-container">
+      <div class="popup">
+        <img class="popup-close" src="svg/form-x.svg">
+        <div class="popup-header title-sidebar"> ваш фидбек </div>
+        <div class="form-row">
+          <span class="form-hint"> Как часто вы заходите на сайт?</span>
+          <div class="frequency-select-container">
+            <select class="frequency-select">
+              <option selected>Почти каждый день</option>
+              <option>Раз в несколько дней</option>
+              <option>Раз в несколько недель</option>
+              <option>Несколько раз в год</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <span class="form-hint"> Вы подписаны на e-mail рассылку?</span>
+          <div class="subscribe-survey">
+            <label> <input type="radio" name="survey" class="survey-option" id="yes"> </input> <span class="survey-text">  Да </span> </label>
+            <label> <input type="radio" name="survey" class="survey-option" id="no"> </input> <span class="survey-text">
+                 Нет </span> </label>
+          </div>
+        </div>
+        <div class="form-row fr-last-child">
+          <label class="form-group">
+            <span class="form-hint"> Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <textarea class="survey-input" placeholder="Может, больше рецептов?"> </textarea>
+          </label>
+        </div>
+        <button class="button">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
   <header class="header">
     <div class="container">
       <div class="wrapper">
@@ -49,7 +85,8 @@
   </header>
   <h3 class="title-sidebar"> Сейчас в тренде </h3>
   <section class="trend-posts">
-    <article class="trend-post" id="trend-post-1">
+    <article class="trend-post">
+      <img src="./images/trend1.jpg" alt="trend-post-image-1" class="trend-post-image">
       <div class="trend-post-container">
         <ul class="trend-tags-list">
           <li class="post-tag">
@@ -65,7 +102,8 @@
       </div>
       </div>
     </article>
-    <article class="trend-post" id="trend-post-2">
+    <article class="trend-post">
+      <img src="./images/trend2.jpg" alt="trend-post-image-2" class="trend-post-image">
       <div class="trend-post-container">
         <ul class="trend-tags-list">
           <li class="post-tag">
@@ -78,7 +116,8 @@
       </div>
       </div>
     </article>
-    <article class="trend-post" id="trend-post-3">
+    <article class="trend-post">
+      <img src="./images/trend3.jpg" alt="trend-post-image-3" class="trend-post-image">
       <div class="trend-post-container">
         <ul class="trend-tags-list">
           <li class="post-tag">
@@ -94,7 +133,8 @@
       </div>
       </div>
     </article>
-    <article class="trend-post" id="trend-post-4">
+    <article class="trend-post">
+      <img src="./images/trend4.jpg" alt="trend-post-image-4.jpg" class="trend-post-image">
       <div class="trend-post-container">
         <ul class="trend-tags-list">
           <li class="post-tag">
@@ -428,42 +468,6 @@
         </div>
       </article>
     </section>
-  </div>
-  <div class="popup-block">
-    <div class="popup-mask"></div>
-    <div class="popup-container">
-      <div class="popup">
-        <img class="popup-close" src="svg/form-x.svg">
-        <div class="popup-header title-sidebar"> ваш фидбек </div>
-        <div class="form-row">
-          <span class="form-hint"> Как часто вы заходите на сайт?</span>
-          <div class="frequency-select-container">
-            <select class="frequency-select">
-              <option selected>Почти каждый день</option>
-              <option>Раз в несколько дней</option>
-              <option>Раз в несколько недель</option>
-              <option>Несколько раз в год</option>
-            </select>
-          </div>
-        </div>
-        <div class="form-row">
-          <span class="form-hint"> Вы подписаны на e-mail рассылку?</span>
-          <div class="subscribe-survey">
-            <label> <input type="radio" name="survey" class="survey-option" id="yes"> </input> <span class="survey-text">  Да </span> </label>
-            <label> <input type="radio" name="survey" class="survey-option" id="no"> </input> <span class="survey-text">
-                 Нет </span> </label>
-          </div>
-        </div>
-        <div class="form-row">
-          <label class="form-group">
-            <span class="form-hint"> Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-            <textarea class="survey-input" placeholder="Может, больше рецептов?"> </textarea>
-          </label>
-        </div>
-        <button class="button">Отправить</button>
-        </form>
-      </div>
-    </div>
   </div>
   <footer class="footer">
     <div class="footer-wrapper">
